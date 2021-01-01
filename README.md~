@@ -1,11 +1,21 @@
-# Marginalized Frailty-Based Illness-Death Model: Application to the UK-Biobank Survival Data
+The purpose of the Author Contributions Checklist (ACC) Form is to
+document the artifacts associated with a manuscript (e.g., code and data
+supporting the computational findings), and describe how to reproduce
+the findings. The final version of this document will be included as
+online supplemental material with the published paper and referenced in
+the abstract.
 
-# Author Contributions Checklist Form
+As of Sept. 1, 2016, the ACC Form must be included with all submissions
+to JASA ACS.
 
-## Data
+This document is the template that will be provided to authors; please
+replace the (non-bold) text below that provides guidance on how to fill
+out each item with the actual information for your manuscript.
 
+Data
+----
 
-### Abstract 
+**Abstract (Mandatory)**
 
 UK Biobank is a national and international health resource following the
 health and well-being of 500,000 volunteer participants and provides
@@ -15,23 +25,28 @@ to improve the prevention, diagnosis and treatment of a wide range of
 serious and life-threatening illnesses – including cancer, heart
 diseases, stroke and more.
 
-### Availability
+**Availability (Mandatory)**
 
 The data will not become publicly available. It is open only to
 bona-fide scientists undertaking health-related research that is in the
 public good. Access to the data is granted only upon application to the
 UK Biobank organization.
 
-### Description 
+**Description (Mandatory if data available)**
 
 Since the UK Biobank data cannot be publicly published, we provide a
 pseudo-dataset, similar to the datasets generated for the simulation
 studies. The code for the generation of such datasets is also provided
 separately as an R code.
 
-## Code
+**Optional Information (complete as necessary) **
 
-### Abstract 
+Unique identifier / DOI
+
+Code
+----
+
+**Abstract (Mandatory)**
 
 We uploaded several code files:
 
@@ -48,7 +63,7 @@ procedure. The dataset is inserted into the estimating wrapper function,
 with instructions of usage provided within the code itself and in the
 Readme file.
 
-### Description 
+**Description (Mandatory)**
 
 The code is written in R. MIT license.
 
@@ -67,15 +82,15 @@ Required libraries:
 -   "statmod" (for sampling from the inverse Gaussian distribution,
     requires R (≥ 3.0.0))
 
-### Optional Information 
+**Optional Information (complete as necessary) **
 
 A part of the code (the computation intensive part) can be parallelized
 to several cores in order to save computation time.
 
-## Instructions for Use
+Instructions for Use
+--------------------
 
-
-### Reproducibility 
+**Reproducibility (Mandatory)**
 
 All tables in the Simulation Study section can be reproduced (main
 results and sensitivity analysis).
@@ -93,3 +108,13 @@ procedure stops when
 $\frac{|\text{new\ log} - \text{likelihood} - \text{last\ log} - likelihood\ |}{|last\ log - likelihood\ |\ } < Tol$,
 or when 100 iterations have been performed.
 
+**Replication (Optional)**
+
+How to use software in other settings (or links to such information,
+e.g., R package vignettes, demos or other examples)
+
+Notes
+-----
+
+Other relevant information, in particular how reviewers can access the
+data and code if not yet made publicly available.
